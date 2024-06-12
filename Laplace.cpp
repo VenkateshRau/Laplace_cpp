@@ -21,7 +21,7 @@ int main()
 	
 	//define grid size
 	nx = 600;
-	ny = nx;
+	ny = 600;
 	Lx = 1;
 	Ly = 1;
 	
@@ -176,7 +176,8 @@ int main()
  	GS_output.close();
  	
  	points.open("points.txt");
- 	points<<nx;
+ 	points<<nx<<endl;
+ 	points<<ny<<endl;
  	points.close();
  	
 
